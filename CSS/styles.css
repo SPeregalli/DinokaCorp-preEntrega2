@@ -1,59 +1,107 @@
+/* Estilos generales */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-  }
-  
-  .header {
+}
+
+/* Estilos del encabezado */
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #333;
     padding: 10px 20px;
-  }
-  
-  .header-icon img {
+}
+
+.header-icon img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     margin-right: 10px;
-  }
-  
-  .header-links {
+}
+
+.header-links {
     display: flex;
-  }
-  
-  .header-links a {
+}
+
+.header-links a {
     color: white;
     text-decoration: none;
     margin: 0 10px;
-  }
-  
-  .header-links a:hover {
-    text-decoration: underline;
-  }
-  .card-body {
-    background-color: #333;
-    
-  }
-  .card-text {
-    color: white;
-  }
+}
 
-  .company-section {
+.header-links a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos de las tarjetas */
+.card-body {
+    background-color: #333;
+}
+
+.card-text {
+    color: white;
+}
+
+/* Estilos de la sección de la compañía */
+.company-section {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding: 40px;
     text-align: center;
-  }
-  
-  .company-name h1 {
+    background: rgba(0, 0, 0, 0.726); /* Fondo semitransparente */
+    color: rgb(255, 255, 255);
+}
+
+.company-name h1 {
     font-size: 36px;
     margin-bottom: 10px;
-  }
-  
-  .company-description p {
+}
+
+.company-description p {
+    font-family: 'Poppins', sans-serif;
     font-size: 18px;
-    color: #666;
     max-width: 600px;
-  }
+}
+
+/* Estilos del fondo de la página */
+body {
+    background-image: url('../img/riot3.jpg'); /* Cambia la ruta a la ubicación de tu imagen */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Estilos del pie de página */
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-icons img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.footer-logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%; /* Agregado para hacer la imagen redonda */
+}
