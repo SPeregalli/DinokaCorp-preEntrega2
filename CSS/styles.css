@@ -109,3 +109,55 @@ body {
     height: 40px;
     border-radius: 50%; /* Agregado para hacer la imagen redonda */
 }
+
+/* Estilos para la sección de contacto */
+.contact-section {
+    padding: 50px 0;
+    background-color: transparent; /* Mantén el fondo transparente */
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-items: center;
+    text-align: center; /* Centra el contenido en el centro de la página */
+}
+
+.contact-info {
+    background-color: white; /* Fondo blanco para la caja de información */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.contact-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Espaciado para separar el icono del borde superior */
+}
+
+.contact-icon img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
